@@ -1,0 +1,136 @@
+
+
+#nav{
+    color:black;
+    
+}
+#nav:hover{
+    color:orange;
+
+    text-decoration: underline;
+}
+
+
+.card-content{
+
+    align-content: center;
+    
+}
+.card-content h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+#card-image{
+    
+    height: 150px;
+    width:250px;
+    margin-left: 3em;
+}
+.card-body{
+
+    align-content: center;
+}
+.card-body ul a:hover{
+    text-decoration: underline;
+    color:black;
+}
+.footer {
+    
+    align-content: center;
+    position: relative;
+    text-align: center;
+}
+.social-links{
+    background-color: black;
+    font-size: 2em;
+}
+.social-links i{
+    font-size: 2em;
+    padding:.4em;
+    color: whitesmoke;
+}
+.social-links i:hover{
+
+    color:green;
+}
+.social-links p{
+    color: white;
+    font-size: 2em;
+    padding-top: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:575px)
+{
+    
+    
+}
+.footer {
+    
+    align-content: center;
+    position: relative;
+    text-align: center;
+}
+.social-links{
+    background-color: black;
+    font-size: .8em;
+}
+.social-links i{
+    font-size: 2em;
+    padding:5px;
+    color: whitesmoke;
+}
+.social-links i:hover{
+
+    color:green;
+}
+.social-links p{
+    color: white;
+    font-size: 1em;
+    padding-top: 4vh;
+}
+
+
+}
+@media(min-width:576px)and(max-width:720px)
+{
+
+    
+
+    
+    .footer {
+    
+        align-content: center;
+        position: relative;
+        text-align: center;
+    }
+    .social-links{
+        background-color: black;
+        font-size: 1em;
+    }
+    .social-links i{
+        font-size: 2em;
+        padding:.4em;
+        color: whitesmoke;
+    }
+    .social-links i:hover{
+    
+        color:green;
+    }
+    .social-links p{
+        color: white;
+        font-size: 1em;
+        padding-top: 5vh;
+    }
+    
+}
